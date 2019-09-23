@@ -3,7 +3,7 @@ body{
     font-family: 'Quicksand', sans-serif;
     height: 500px;
     background-position: center;
-    background-image: url("file:///Users/user/Downloads/Homework3-AdvancedCSS/images/pidgeon-background.jpg");
+    background-image: url("../images/pidgeon-background.jpg");
     background-repeat: no-repeat, repeat;
     background-color: #dddddd;
     background-size: cover;
