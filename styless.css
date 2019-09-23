@@ -1,0 +1,101 @@
+body{
+    
+    font-family: 'Quicksand', sans-serif;
+    height: 500px;
+    background-position: center;
+    background-image: url("file:///Users/user/Downloads/Homework3-AdvancedCSS/images/pidgeon-background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-color: #dddddd;
+    background-size: cover;
+
+    
+    
+  }
+  
+
+  
+  h1{
+    
+    font-size: 2em;
+    color: #c12258;
+    line-height: 1.5;
+  }
+  p{
+   
+    font-size: 18px;
+    padding-top: 15px;
+  }
+  a{
+    font-size: 18px;
+    color: #c12258;
+    text-decoration: underline;
+  }
+  :focus{
+    border:1px solid red;
+
+
+  }
+  table{
+   
+    border-collapse: separate;
+    border-radius: 10px;
+    border-spacing: 0;
+    border: 2px solid black;
+    overflow: hidden;
+    border-bottom: hidden;
+    
+    
+  }
+  .colhead{
+    min-width:150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:#7e0830;
+    border-bottom: 2px solid black;
+  }
+
+.rowhead{
+border-bottom: 2px solid black;
+
+}
+tbody td{
+  text-align:center;
+  border-bottom:2px solid black;
+  padding: 15px 15px 15px 15px;
+}
+ tr:nth-child(even){ 
+   background-color: #dddddd;
+      
+  }
+  tr:nth-child(odd)
+  { 
+    background-color: transparent;
+  
+       
+   }
+   th.colhead:first-child {
+    border-top-left-radius: 10px;
+}
+th.colhead:last-child {
+    border-top-right-radius: 10px;
+
+}
+
+}
+th.rowhead:last-child {
+    border-bottom-right-radius: 10px;
+}
+   tr:hover{
+     background-color: #fab9cf;
+   }
+footer{
+   color: white;
+   background-color: black;
+   position: fixed;
+   bottom: 0;
+   min-height: 60px;
+   width: 100%;
+  }
+  
